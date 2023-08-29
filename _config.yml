@@ -1,64 +1,56 @@
 # main text of home
-title: John Doe
+title: Mohsin Sabir
 bio: A Person who travels the world eating noodles
-
-# twitter summary info
 description: A blog about technology and stuff related
-
-# if it's an external image, update below for true
-# better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/profile.jpeg
 
-# your site color theme, true for dark theme, 
-# false to light theme, auto to switch with system.
 dark-theme: auto
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: hhttps://drive.google.com/file/d/1g-3EmT4ibWBcND8nMslYvGdwl9YqMQkh/view?usp=drive_link
 
-url: https://sergiokopplin.github.io/indigo
 # your url: https://USERNAME.github.io
-
+url: https://mohsinsr.github.io/
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: "G-RW69HH4G07"
 
 # if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: github # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+# disqus:
+#   shortname: github # enter this from your disqus account
+#   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+facebook: /Mohsinsabir.me/
+twitter: mohsin_sbr
+instagram: mohsinsbr
+linkedin: mohsin-sabir
+github: mohsinsr
+email: mohsinsabir.me@gmail.com
 
 authors:
-  johndoe:
-    name: John Doe
+  mohsin:
+    name: Mohsin Sabir
     bio: A Man who travels the world eating noodles
     external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    picture: assets/images/profile.jpeg
+    twitter: mohsin_sbr
+  # jamesfoster:
+  #   name: James Foster
+  #   bio: A Man who develops software with coffee
+  #   external-image: false
+  #   picture: assets/images/james.jpg
+  #   twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-width: normal
+width: large
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
@@ -69,11 +61,11 @@ pagination:
   permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+# blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -116,11 +108,4 @@ compress_html:
       - development
       - stage
 
-exclude:
-  [
-    "README.md",
-    "Gemfile",
-    "Gemfile.lock",
-    "FAQ.md",
-    "vendor",
-  ]
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "FAQ.md", "vendor"]
