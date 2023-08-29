@@ -11,7 +11,7 @@ dark-theme: auto
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: hhttps://drive.google.com/file/d/1g-3EmT4ibWBcND8nMslYvGdwl9YqMQkh/view?usp=drive_link
+resume-url: https://drive.google.com/file/d/1g-3EmT4ibWBcND8nMslYvGdwl9YqMQkh/view?usp=drive_link
 
 # your url: https://USERNAME.github.io
 url: https://mohsinsr.github.io/
