@@ -31,8 +31,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://summarizely.app/">Summarizely</a></li>
-	<li><a href="https://workinaus.com.au/">WorkInAus</a></li>
-	<li><a href="https://atoms.com/">Atoms</a></li>
-	<li><a href="https://de.swedishfall.com/">Swedish Fall</a></li>
+<li><a href="https://summarizely.app/" target="_blank">Summarizely</a></li>
+<li><a href="https://workinaus.com.au/" target="_blank">WorkInAus</a></li>
+<li><a href="https://atoms.com/" target="_blank">Atoms</a></li>
+<li><a href="https://de.swedishfall.com/" target="_blank">Swedish Fall</a></li>
 </ul>
