@@ -17,7 +17,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
 <h2>Skills</h2>
 
 <ul class="skill-list">
-    <li>Frontend Development: JavaScript, React.js, Next.js, TypeScript, Redux, Redux Saga, RecoilJS, Context API, Formik, Ant Design, Bootstrap, Material-UI, Micro Frontends, RESTful APIs, GraphQL, Webpack, Tailwind, Material UI, Version Control (Git), Package Managers (npm, Yarn), Web Performance Optimization, Responsive Images, Progressive Web Apps (PWAs), Browser Developer Tools, UI/UX Design Fundamentals, Cross-browser Compatibility, Web Accessibility (a11y), Webpack, Frontend Build Tools, Debugging</li>
+    <li>Frontend Development: JavaScript, React.js, Next.js, TypeScript, Redux, Redux Saga, RESTful APIs, GraphQL, Webpack, Package Managers (npm, Yarn),Browser Developer Tools, Webpack Debugging</li>
+    <li>UI libraries:Material-UI, Tailwind CSS, Ant Design, Bootstrap </li>
 		<li>Frontend Testing (Jest, Mocha, etc.) </li>
     <li>DevOps Automation: Docker, GitLab and GitHub Actions</li>
     <li>Programming/Scripting Languages: JavaScript, TypeScript, and Golang </li>
