@@ -14,7 +14,7 @@ consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
 
-<h2>Skills</h2>
+<h2>Skills, Methodologies and Tools</h2>
 
 <ul class="skill-list">
     <li>Frontend Development: JavaScript, React.js, Next.js, TypeScript, Redux, Redux Saga, RESTful APIs, GraphQL, Webpack, Package Managers (npm, Yarn), Webpack, Debugging</li>
