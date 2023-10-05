@@ -26,9 +26,9 @@ analytics-google: "G-RW69HH4G07"
 #   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: /Mohsinsabir.me/
-twitter: mohsin_sbr
-instagram: mohsinsbr
+# facebook: /Mohsinsabir.me/
+# twitter: mohsin_sbr
+# instagram: mohsinsbr
 linkedin: mohsin-sabir
 github: mohsinsr
 email: mohsinsabir.me@gmail.com
