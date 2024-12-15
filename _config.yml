@@ -1,7 +1,7 @@
 # main text of home
 title: Mohsin Sabir
 bio: From algorithms to user interfaces, discovering the world of ones and zeros
-description: A blog about technology and stuff related
+description: Mohsin is a Software Engineer mainly working with JavaScript and its technologies. He has mostly worked with startups from the idea phase to completion, helping them build scalable and high-performing web applications.
 external-image: false
 picture: assets/images/profile.jpeg
 
@@ -14,11 +14,11 @@ resume-external: true
 resume-url: https://drive.google.com/file/d/1g-3EmT4ibWBcND8nMslYvGdwl9YqMQkh/view?usp=drive_link
 
 # your url: https://USERNAME.github.io
-url: https://mohsinsr.github.io/
+url: https://mohsinsabir.me
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: "G-RW69HH4G07"
+analytics-google: ""
 
 # if you don't want comments in your posts, leave categories empty
 # disqus:
