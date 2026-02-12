@@ -1,15 +1,21 @@
+{% if page.title == "Home" %}
+<div class="lang-toggle">
+    <button class="lang-btn" onclick="toggleLanguage()">DE</button>
+</div>
+{% endif %}
+
 <nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
     <ul class="list">
         {% if page.title != "Home" %}
             <li class="item">
-                <a class="link" href="{{ site.url }}/">Home</a>
+                <a class="link" href="{{ site.url }}/"><span data-i18n="nav.home">Home</span></a>
             </li>
         {% endif %}
 
         {% if site.blog == true %}
             {% if page.title != "Blog" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/blog">Blog</a>
+                    <a class="link" href="{{ site.url }}/blog"><span data-i18n="nav.blog">Blog</span></a>
                 </li>
             {% endif %}
         {% endif %}
@@ -17,7 +23,7 @@
         {% if site.projects == true %}
             {% if page.title != "Projects" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/projects">Projects</a>
+                    <a class="link" href="{{ site.url }}/projects"><span data-i18n="nav.projects">Projects</span></a>
                 </li>
             {% endif %}
         {% endif %}
@@ -25,14 +31,20 @@
         {% if site.about == true %}
             {% if page.title != "About" %}
                 <li class="item">
-                    <a class="link" href="{{ site.url }}/about">About</a>
+                    <a class="link" href="{{ site.url }}/about"><span data-i18n="nav.about">About</span></a>
                 </li>
             {% endif %}
         {% endif %}
 
         {% if site.resume == true %}
             <li class="item">
-                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}">Résumé</a>
+                <a class="link" href="{% if site.resume-external %}{{ site.resume-url }}{% else %}{{ site.url }}/{{ site.resume-url }}{% endif %}"><span data-i18n="nav.resume">Résumé</span></a>
+            </li>
+        {% endif %}
+
+        {% if page.title != "Home" %}
+            <li class="item">
+                <button class="lang-btn" onclick="toggleLanguage()">DE</button>
             </li>
         {% endif %}
     </ul>
